@@ -1,0 +1,99 @@
+header{
+    border: 5;
+    height: min-content;
+}
+.titulo{
+    font-size: xx-large;
+    border: 5px;
+    display: flex ;
+    align-items: center;
+}
+body{
+    margin: 10px;
+    background-image: linear-gradient(orange , green);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.contprincipal{
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+
+.carnes{
+    display: flex;
+    text-decoration-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.carnes img{
+    width:  300px;
+    height: 300px;
+}
+
+.card{
+    border: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 10px;
+}
+.card img{
+    margin: auto;
+}
+.row{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 10px;
+    border-style: double;
+}
+.container{
+    list-style: none;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+.container img{
+    width: 200px;
+    height: 150px;
+}
+nav {
+    background-color: #333;
+    height: 50px;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .menu li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+  }
+  
+  .menu li a:hover {
+    background-color: #555;
+  }
+.cont{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    float: inline-end;
+}
+  
